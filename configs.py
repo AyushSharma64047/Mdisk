@@ -12,7 +12,7 @@ class Config(object):
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", -100)
+    FORCE_SUB_CHANNEL = os.environ.get("FORCE_SUB_CHANNEL", -100)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
 🤖 My Name: <a href='https://t.me/MdiskLinksSearchBot'>Mdisk Search Robo</a>
@@ -36,26 +36,26 @@ If You Want Your Own Bot Like This Then You Can Contact My Father.</b>
 
 I'm Mdisk Link Search Robo.</a>
 
-I Can Search 🔍 Mobiz-Seriez-Showz❗
+I Can Search🔍 Mobiz-Seriez-Shows❗
 
-Just Drop A Name With Correct Spelling And My Powers ⚡
+Just Drop A Name With Correct Spelling And See My Powers ⚡⚡
 
-<a>If You Didn't Found Ur Result Try Requesting Here @blackest_harbour</a></b>
+<a>If You Didn't Found Ur Result, Please Try Requesting Here👉<i>@blackest_harbour</i> </a></b>
 """
 
 
 
     START_MSG = """
 
-<b>Yo! {}😇,
+<b>Yo! Dear {}😇,
 
 I'm Mdisk Link Search Robo.</a>
 
-I Can Search 🔍 Mobiz-Seriez-Showz❗
+I Can Search🔍 Mobiz-Seriez-Showz❗
 
-Just Drop A Name With Correct Spelling And My Powers ⚡
+Just Drop A Name With Correct Spelling And My See Powers ⚡
 
-<a>If You Didn't Found Ur Result Try Requesting Here @blackest_harbour </a></b>
+<a>If You Didn't Found Ur Result Try Requesting Here👉 @blackest_harbour </a></b>
 """
 
 
