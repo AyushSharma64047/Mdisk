@@ -57,7 +57,7 @@
 
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
 
-      "value": "-1001557431626"
+      "value": "-100"
  },
         "FORCE_SUB_MESSAGE": {
 
