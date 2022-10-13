@@ -57,13 +57,13 @@
 
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
 
-      "value": "-100"
+      "value": "-1001557431626"
  },
         "FORCE_SUB_MESSAGE": {
 
-      "description": "Optional: Force Sub message of bot, use HTML parsemode format",
+      "description":"Force Sub message of bot, use HTML parsemode format",
 
-      "value": " Yo...Yo..Yo! yo dear{first}\n\n<b>You need to join in my Father's Channel to Operate Me\n\nKindly Please Join Channel</b>"
+      "value": " Yo...Yo..Yo! yo dear{first}\n\n<b>You need to join in my Father's Channel to Operate Me\n\n Kindly Please Join Channel</b>"
 },
 
     "buildpacks": [
